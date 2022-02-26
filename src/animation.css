@@ -1,0 +1,19 @@
+.face-enter-active {
+  animation: bounce-in .5s
+}
+
+.face-leave-active {
+  animation: fade-in .5s reverse
+}
+
+@keyframes fade-in {
+  0% {
+    transform: scale(0)
+  }
+  50% {
+    transform: scale(1.5)
+  }
+  100% {
+    transform: scale(1);
+  }
+}
